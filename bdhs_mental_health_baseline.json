@@ -1,0 +1,64 @@
+{
+  "source": "Bangladesh Demographic and Health Survey 2022 (BDHS 2022)",
+  "sample_info": {
+    "total_households_surveyed": 30018,
+    "total_women_interviews": 30078,
+    "mental_health_module_completed_women": 19987,
+    "age_range": "15-49 years",
+    "target_population": "Ever-married women of reproductive age"
+  },
+  "instruments": {
+    "anxiety": {
+      "name": "Generalized Anxiety Disorder-7 (GAD-7)",
+      "score_range": "0-21",
+      "threshold_for_symptoms": 6,
+      "severity_categories": {
+        "mild": "0-5",
+        "moderate_to_severe": "6-21"
+      }
+    },
+    "depression": {
+      "name": "Patient Health Questionnaire-9 (PHQ-9)",
+      "score_range": "0-27",
+      "threshold_for_symptoms": 10,
+      "severity_categories": {
+        "mild_or_none": "0-9",
+        "moderate_to_severe": "10-27"
+      }
+    }
+  },
+  "prevalence_rates": {
+    "anxiety_symptoms_gad7_ge_6": 19.7,
+    "depression_symptoms_phq9_ge_10": 5.1,
+    "either_condition": 20.4,
+    "treatment_adjusted_anxiety_prevalence": 20.0,
+    "treatment_adjusted_depression_prevalence": 7.0
+  },
+  "age_disaggregation": {
+    "anxiety_symptoms": {
+      "age_15_19": 13.0,
+      "age_45_49": 26.0
+    }
+  },
+  "diagnosis_and_treatment": {
+    "ever_diagnosed_with_anxiety": 6.0,
+    "ever_diagnosed_with_depression": 4.0,
+    "took_prescribed_medication_past_2_weeks": 2.0,
+    "among_symptomatic_anxiety_group_gad7_ge_6": {
+      "ever_told_diagnosed_anxiety": 17.0,
+      "ever_told_diagnosed_depression": 11.0,
+      "took_prescribed_medication": 6.0
+    },
+    "among_symptomatic_depression_group_phq9_ge_10": {
+      "ever_told_diagnosed_anxiety": 21.0,
+      "ever_told_diagnosed_depression": 15.0,
+      "took_prescribed_medication": 10.0
+    }
+  },
+  "help_seeking_behavior": {
+    "overall_help_seeking_any_symptoms": 12.0,
+    "among_symptomatic_anxiety_group_gad7_ge_6": 21.0,
+    "among_symptomatic_depression_group_phq9_ge_10": 22.0,
+    "note": "Help-seeking is predominantly informal (family, neighbors) rather than formal medical or psychiatric services."
+  }
+}
